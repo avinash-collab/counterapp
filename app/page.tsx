@@ -22,7 +22,7 @@ export default function MultiCounter() {
 
   const handleAddCounter = () => {
     setCounters([...counters, 0]);
-    setActiveIndex(counters.length); // Focus new counter
+    setActiveIndex(counters.length); 
   };
 
   return (
